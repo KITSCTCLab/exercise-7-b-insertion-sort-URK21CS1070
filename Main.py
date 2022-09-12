@@ -10,7 +10,7 @@ def insertionSort(array) -> List[int]:
     while curr_ind > 0 and array[curr_ind - 1] > array[curr_ind]:
       array[curr_ind - 1], array[curr_ind] = array[curr_ind], array[curr_ind - 1]
       curr_ind -= 1
-  return arra
+  return array
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
